@@ -1,0 +1,10 @@
+/* Bootstrap */
+.nav-pills .nav-item .nav-link {
+    max-height: 40px;
+    transition: font-size 0.1s ease, max-height 0.1s ease;
+}
+  
+.nav-pills .nav-item .nav-link:hover {
+    font-size: larger;
+    max-height: 40px;
+}

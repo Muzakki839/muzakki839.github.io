@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Web</title>
+    <link rel="stylesheet" href="src/style/style.css" />
+    <link rel="stylesheet" href="src/style/style2.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="fixed-top navbar" id="navbar">
+      <ul
+        class="nav nav-pills bg-nav container-sm rounded-3 p-1 mt-2 justify-content-center shadow-lg"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" role="tab" data-bs-target="#home" href="#home">
+            Home
+          </a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            role="tab"
+            data-bs-target="#profile"
+            href="#profile"
+          >
+            Profile
+          </a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            role="tab"
+            data-bs-target="#portofolio"
+            href="#portofolio"
+          >
+            Portofolio
+          </a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            role="tab"
+            data-bs-target="#contact"
+            href="#contact"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- navbar end -->
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar">
+      <div class="box-mark bg-aliceblue" id="home"></div>
+      <div class="bg-image">
+        <div class="plain-box"></div>
+
+        <div class="photo-container">
+          <img class="photo img-fluid" src="src\img\IMG_3411.png" alt="..." />
+        </div>
+        <div class="box-mark" id="profile"></div>
+      </div>
+
+      <!-- profil start -->
+      <div>
+        <div class="biru p-3 row-cols-1 pb-5 rounded-bottom-5">
+          <div class="text-center">
+            <h1>Muzakki Abdul Aziz</h1>
+            <h2>a Game Developer</h2>
+          </div>
+          <div class="text-break mt-5">
+            <h3 class="text-center fw-light">
+              I am a game developer with a primary focus as a programmer. I have
+              experience in game development using Unity and master the C#
+              programming language. Moreover, I also have side skills in art,
+              and music, which helps in game graphic and audio design. I also
+              have an interest in Python especially in artificial intelligence
+              (AI) development to spend my free time. Currently, I am in process
+              of learning web development.
+            </h3>
+          </div>
+        </div>
+        <div class="box-sm d-flex flex-wrap">
+          <img
+            src="/src/img/unity-ico.png"
+            alt="image not found"
+            class="ico-size-lg"
+          />
+          <img
+            src="/src/img/c-sharp-c-icon-1822x2048-wuf3ijab.png"
+            alt="image not found"
+            class="ico-size-lg"
+          />
+          <img
+            src="/src/img/Python-logo-notext.svg.png"
+            alt="image not found"
+            class="ico-size-lg"
+          />
+          <img
+            src="/src/img/Git-Icon-1788C.png"
+            alt="image not found"
+            class="ico-size-lg"
+          />
+        </div>
+      </div>
+      <!-- profil end -->
+
+      <!-- portofolio start -->
+      <div class="box-mark bg-aliceblue" id="portofolio"></div>
+      <div class="box bg-aliceblue">
+        <h1>Portofolio</h1>
+
+        <div class="mt-5 row container-fluid">
+          <div class="card col-sm-4 p-0 scale-hover">
+            <img src="/src/img/GoS.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Guardian of Subak</h5>
+              <p class="card-text">
+                A Pekaseh (subak farmer guard) is appointed to solve irrigation
+                problems, overcome obstacles from evil spirits and go to
+                Pelinggih to ask for the protection of the goddess of
+                agriculture.
+              </p>
+            </div>
+            <div class="card-footer d-flex">
+              <a
+                href="https://muzakki839.itch.io/tes-web-game"
+                class="btn btn-outline-primary flex-fill me-2"
+                target="_blank"
+                >See more...</a
+              >
+              <a
+                href=""
+                class="btn btn-outline-primary btn-ico-sm disabled"
+                target="_blank"
+                ><img src="/src/img/ScrCd-ico.png" class="ico-size-sm" alt="/'"
+              /></a>
+            </div>
+          </div>
+
+          <div class="card col-sm-4 p-0 scale-hover">
+            <img src="/src/img/GUT.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Game Ular Tangga</h5>
+              <p class="card-text">
+                A simple snake and ladder game based on a console app made using
+                Python
+              </p>
+            </div>
+            <div class="card-footer d-flex">
+              <a
+                href="https://muzakki839.itch.io/game-ulartangga"
+                class="btn btn-outline-primary flex-fill me-2"
+                target="_blank"
+                >See more...</a
+              >
+              <a
+                href="https://github.com/Muzakki839/Game-Ular-Tangga"
+                class="btn btn-outline-primary btn-ico-sm"
+                target="_blank"
+                ><img src="/src/img/ScrCd-ico.png" class="ico-size-sm" alt="/'"
+              /></a>
+            </div>
+          </div>
+
+          <div class="card col-sm-4 p-0 scale-hover">
+            <img src="/src/img/ASA.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Animasi Siklus Air</h5>
+              <p class="card-text">
+                Simple animation of water cycles using the Manim library in
+                Python.
+              </p>
+            </div>
+            <div class="card-footer d-flex">
+              <a
+                href="https://www.youtube.com/watch?v=-XNzsz4MsoU"
+                class="btn btn-outline-primary flex-fill me-2"
+                target="_blank"
+                >See more...</a
+              >
+              <a
+                href="https://github.com/Muzakki839/Animasi-Siklus-Air"
+                class="btn btn-outline-primary btn-ico-sm"
+                target="_blank"
+                ><img src="/src/img/ScrCd-ico.png" class="ico-size-sm" alt="/'"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- portofolio end -->
+
+      <!-- footer start -->
+      <footer class="footer" id="contact">
+        <div class="text-center text-bg-primary p-5">
+          <h1>Contact Me</h1>
+          <div class="flex justify-content-center">
+            <a href="mailto:muzakki839@gmail.com?">
+              <img
+                src="/src/img/mail-ico.png"
+                alt="?"
+                class="ico-size ico-color"
+              />
+            </a>
+            <a href="https://github.com/Muzakki839">
+              <img
+                src="/src/img/github-ico.png"
+                alt="?"
+                class="ico-size ico-color"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/muzakki-abdul-aziz-255913258/">
+              <img
+                src="/src/img/linkedin-ico.png"
+                alt="?"
+                class="ico-size ico-color"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="text-center text-bg-primary bg-primary">
+          <p>Copyright © 2023 Muzakki Abdul Aziz</p>
+        </div>
+      </footer>
+      <!-- footer end -->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
