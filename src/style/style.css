@@ -25,8 +25,8 @@ html {
     scale: 100%;
 }
 .scale-hover:hover {
-    z-index: 5;
-    scale: 110%;
+    z-index: 1;
+    scale: 105%;
     transition: 0.05s ease-in-out;
 }
 
@@ -74,6 +74,9 @@ html {
 .flex {
     display: flex;
 }
+.sm-row-col{
+    flex-direction: row;
+}
 
 
 /* navbar */
@@ -115,17 +118,15 @@ html {
     align-items: center;
     height: 100vh;
 }
-@media (max-width: 576px), (max-height: 874px) {
+@media (max-width: 575px) {
     .box {
         height: 200vh;
     }
-}
-@media (min-width: 576px) {
-    .box {
-        height: 100vh;
+    .sm-row-col {
+        flex-direction: column;
     }
 }
-@media (max-height: 482px) {
+@media (max-height: 565px) {
     .photo-container {
         height: 70vh;
     }

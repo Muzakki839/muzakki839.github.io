@@ -8,3 +8,7 @@
     font-size: larger;
     max-height: 40px;
 }
+
+.card {
+    border-radius: 100%;
+}
